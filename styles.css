@@ -1,9 +1,41 @@
+
 body {
-    background-color: rgb(40, 90, 134);
-    color:rgb(222, 229, 235);
-    font-family: sans-serif;
-    text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #ffffff;
 }
+
+/* Título principal */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Enlace estilo botón */
 a {
-    color:rgb(222, 229, 235);
+  display: inline-block;
+  padding: 15px 30px;
+  background: #00c6ff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Efecto al pasar el mouse */
+a:hover {
+  background: #0072ff;
+  transform: translateY(-3px);
+}
+
+/* Efecto al hacer clic */
+a:active {
+  transform: scale(0.97);
 }
